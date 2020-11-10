@@ -19,6 +19,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/***
+ * Class: JwtRequestFilter
+ *
+ * Desc: Filter used to check authentication token.
+ * If token exist it will authenticate user based on token
+ * Else it will clear out security contexxt and throws error
+ */
 @Component
 @Data
 public class JwtRequestFilter extends OncePerRequestFilter {

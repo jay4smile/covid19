@@ -16,6 +16,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
+
+/***
+ * Class: AuthenticationController
+ *
+ * Desc: Controller class to handle User specific request like Authentication and registration
+ */
 @RestController
 @RequestMapping("/user/")
 public class AuthenticationController {

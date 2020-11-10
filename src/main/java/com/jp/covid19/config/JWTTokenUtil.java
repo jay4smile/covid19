@@ -21,6 +21,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
+
+/***
+ * class: JWTTokenUtil
+ * Desc: Class is responsible for the operations on/for JWT token
+ */
+
 @Component
 public class JWTTokenUtil implements Serializable {
 

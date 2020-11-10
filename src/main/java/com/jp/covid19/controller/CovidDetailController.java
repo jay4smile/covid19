@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
+/***
+ * Class: CovidDetailController
+ * Desc: class is responsible to fetch latest  covid19 cases across india
+ */
+
 @RestController
 @RequestMapping("/api/covidinformation")
 public class CovidDetailController {
